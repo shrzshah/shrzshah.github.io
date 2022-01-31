@@ -2,3 +2,8 @@
     margin: 0%;
     padding: 0%;
 }
+.logo img{
+    width: 15%;
+    border: 3px rgb(255, 251, 3);
+    border-radius: 50%
+}
