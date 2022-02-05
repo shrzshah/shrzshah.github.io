@@ -600,3 +600,6 @@ footer span a:hover{
     }
 }
 /* Graphic Samples */
+.row .card:hover{
+    background-color: rgb(241, 141, 141);
+}
