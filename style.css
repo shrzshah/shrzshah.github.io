@@ -366,6 +366,9 @@ section .title::after{
 .skills-content .left .canvas::before{
     width: 80%;
 }
+.skills-content .left .figma::before{
+    width: 50%;
+}
 .skills-content .left .xd::before{
     width: 10%;
 }
