@@ -364,16 +364,16 @@ section .title::after{
     width: 90%;
 }
 .skills-content .left .canvas::before{
-    width: 80%;
+    width: 95%;
 }
 .skills-content .left .figma::before{
     width: 50%;
 }
 .skills-content .left .xd::before{
-    width: 10%;
+    width: 50%;
 }
 .skills-content .left .indesign::before{
-    width: 10%;
+    width: 20%;
 }
 
 .skills .skills-content .right .bars{
@@ -422,7 +422,7 @@ section .title::after{
     width: 10%;
 }
 .skills-content .right .press::before{
-    width: 20%;
+    width: 70%;
 }
 
 
