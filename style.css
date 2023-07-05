@@ -35,11 +35,12 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .services, .certificate, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
 .services .serv-content,
+.certificate .cert-content,
 .skills .skills-content,
 .contact .contact-content{
     display: flex;
@@ -314,6 +315,56 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    color: white;
+}
+/* certificate section styling */
+.certificate, .teams{
+    color:#fff;
+    background: #111;
+}
+.certificate .title::before,
+.teams .title::before{
+    background: #fff;
+}
+.certificate .title::after,
+.teams .title::after{
+    background: #111;
+    content: "Click To See All Certificates";
+}
+.certificate .title{
+    padding-bottom: 40px;
+}
+.certificate .cert-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.certificate .cert-content .card:hover{
+    background: crimson;
+}
+.certificate .cert-content .card .box{
+    transition: all 0.3s ease;
+}
+.certificate .cert-content .card:hover .box{
+    transform: scale(1.05);
+}
+.certificate .cert-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.certificate .cert-content .card:hover i{
+    color: #fff;
+}
+.certificate .cert-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    color: white;
 }
 
 /* skills section styling */
@@ -422,7 +473,7 @@ section .title::after{
     width: 10%;
 }
 .skills-content .right .press::before{
-    width: 70%;
+    width: 90%;
 }
 
 
@@ -544,6 +595,10 @@ footer span a:hover{
         flex: 100%;
     }
     .services .serv-content .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+    .certificate .cert-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
